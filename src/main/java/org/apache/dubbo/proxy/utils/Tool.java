@@ -29,7 +29,6 @@ public class Tool {
 
 
     public static String getVersion(String service) {
-        int a = 0;
         if (service != null && service.length() > 0) {
             int i = service.lastIndexOf(':');
             if (i >= 0) {
