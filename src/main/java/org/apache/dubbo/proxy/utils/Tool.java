@@ -27,14 +27,8 @@ public class Tool {
         return null;
     }
 
-    /**
-     * 指定されたサービス文字列から抽出されたバージョンを返します。
-     *
-     * @param service バージョンを抽出する必要がある入力文字列。
-     * @return サービス文字列から抽出されたバージョン。バージョンが見つからない場合は、null が返されます。
-     */
+
     public static String getVersion(String service) {
-        int a = 10;
         if (service != null && service.length() > 0) {
             int i = service.lastIndexOf(':');
             if (i >= 0) {
