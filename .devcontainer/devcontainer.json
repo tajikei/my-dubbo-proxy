@@ -8,7 +8,13 @@
 		"vscode": {
 			"extensions": [
 				"ms-vscode-remote.remote-containers",
-				"vscjava.vscode-java-pack"
+				"vscjava.vscode-java-pack",
+				"usernamehw.errorlens",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"vscjava.vscode-java-debug",
+				"GitHub.vscode-pull-request-github",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"eamodio.gitlens"
 			]
 		}
 	}
